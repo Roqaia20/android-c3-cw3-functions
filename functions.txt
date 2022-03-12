@@ -1,0 +1,34 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+
+public class Main
+{
+	public static void main(String[] args) {
+		ForLoopFun();
+		System.out.println(temprature(22));
+		int total = totalGrade(2,3);
+		System.out.println(total);
+	}
+	public static void ForLoopFun(){
+	    for (int i=0;i<=10;i++){
+	        System.out.println(i);
+	    }
+	}
+	public static String temprature(int temp){
+	    if(temp>23){
+	        return"Hot";
+	    }else if(temp<23){
+	        return"cold";
+	    }
+	     return"Goog temp";
+	    }
+	    public static int totalGrade(int num1,int num2){
+	        return num1+num2;
+	    }
+	}
+
